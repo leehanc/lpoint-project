@@ -74,7 +74,7 @@ for i in range(len(custData)-1):
 cust = cust[0:len(cust)-1]
 print(f"cust : {len(cust)} \nmaxData : {len(maxData)} \nminData : {len(minData)} \nmeanData : {len(meanData)}\n{len(lastdateData)}\n{len(meanbuyData)}")
 dict = {'cust' : cust, 'maxData' : maxData, 'minData' : minData, 'meanData' : meanData,
-        'last_de_dt' : lastdateData ,'이용일수' : num, '평균 일 이용액' : meanbuyData}
+        'last_de_dt' : lastdateData ,'num_dt' : num, 'avr_am' : meanbuyData}
 df = pd.DataFrame(dict)
 # df = pd.DataFrame([cust, maxData, minData, meanData], columns = ['cust', 'maxData', 'minData', 'meanData'])
 
